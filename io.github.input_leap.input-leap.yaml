@@ -125,13 +125,25 @@ modules:
                 x-checker-data:
                   type: pypi
                   name: attrs
-            cleanup:
-              - /lib/python*
+            modules:
+              - hachling.yaml
           - name: python3-Jinja2
             buildsystem: simple
             build-commands:
-              - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-                --prefix=${FLATPAK_DEST} --no-build-isolation Jinja2
+              - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} --no-build-isolation Jinja2
+            modules:
+                - name: python3-flit-core
+                  buildsystem: simple
+                  build-commands:
+                    - pip3 install --no-index --no-build-isolation --prefix="${FLATPAK_DEST}" .
+                  cleanup: ["*"]
+                  sources:
+                    - type: archive
+                      url: https://files.pythonhosted.org/packages/d5/ae/09427bea9227a33ec834ed5461432752fd5d02b14f93dd68406c91684622/flit_core-3.10.1.tar.gz
+                      sha256: 66e5b87874a0d6e39691f0e22f09306736b633548670ad3c09ec9db03c5662f7
+                      x-checker-data:
+                        type: pypi
+                        name: flit-core
             sources:
               - type: file
                 url: https://files.pythonhosted.org/packages/af/92/b3130cbbf5591acf9ade8708c365f3238046ac7cb8ccba6e81abccb0ccff/jinja2-3.1.5.tar.gz
