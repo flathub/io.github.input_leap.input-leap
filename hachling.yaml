@@ -38,8 +38,8 @@ sources:
       type: pypi
   - &id005
     type: file
-    url: https://files.pythonhosted.org/packages/46/52/bc0592d1ac02f93983f5e46b0e4872a0abcc498faa2727ff7c184b6bdb6c/trove_classifiers-2025.3.13.13-py3-none-any.whl
-    sha256: c1679d2876eef24584ad1619e3870177c216bab28bd5bc5b59ee78b491eb8a6b
+    url: https://files.pythonhosted.org/packages/70/7d/a2271b98b833680561ab3fcd60ab682478dc4f7cc023fab24991601ac8ac/trove_classifiers-2025.4.11.15-py3-none-any.whl
+    sha256: e7d98983f004df35293caf954bdfe944b139eb402677a97115450e320f0bd855
     x-checker-data:
       name: trove_classifiers
       packagetype: bdist_wheel
