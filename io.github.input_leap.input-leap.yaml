@@ -95,7 +95,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/input-leap/input-leap.git
-        commit: 8efd4dd66301d6748801848b7bc39a9b4ed34627
+        commit: aac3e882a2fc9e1db20e385d3a05169c7746d987
       - type: patch
         path: xdg-location-for-config.patch
     modules:
