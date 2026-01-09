@@ -6,8 +6,8 @@ build-commands:
 sources:
   - &id001
     type: file
-    url: https://files.pythonhosted.org/packages/08/e7/ae38d7a6dfba0533684e0b2136817d667588ae3ec984c1a4e5df5eb88482/hatchling-1.27.0-py3-none-any.whl
-    sha256: d3a2f3567c4f926ea39849cdf924c7e99e6686c9c8e288ae1037c8fa2a5d937b
+    url: https://files.pythonhosted.org/packages/0d/a5/48cb7efb8b4718b1a4c0c331e3364a3a33f614ff0d6afd2b93ee883d3c47/hatchling-1.28.0-py3-none-any.whl
+    sha256: dc48722b68b3f4bbfa3ff618ca07cdea6750e7d03481289ffa8be1521d18a961
     x-checker-data:
       name: hatchling
       packagetype: bdist_wheel
@@ -22,8 +22,8 @@ sources:
       type: pypi
   - &id003
     type: file
-    url: https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl
-    sha256: a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08
+    url: https://files.pythonhosted.org/packages/78/6b/14fc9049d78435fd29e82846c777bd7ed9c470013dc8d0260fff3ff1c11e/pathspec-1.0.2-py3-none-any.whl
+    sha256: 62f8558917908d237d399b9b338ef455a814801a4688bc41074b25feefd93472
     x-checker-data:
       name: pathspec
       packagetype: bdist_wheel
@@ -38,8 +38,8 @@ sources:
       type: pypi
   - &id005
     type: file
-    url: https://files.pythonhosted.org/packages/e1/85/a4ff8758c66f1fc32aa5e9a145908394bf9cf1c79ffd1113cfdeb77e74e4/trove_classifiers-2025.9.11.17-py3-none-any.whl
-    sha256: 5d392f2d244deb1866556457d6f3516792124a23d1c3a463a2e8668a5d1c15dd
+    url: https://files.pythonhosted.org/packages/4f/7e/bc19996fa86cad8801e8ffe6f1bba5836ca0160df76d0410d27432193712/trove_classifiers-2025.12.1.14-py3-none-any.whl
+    sha256: a8206978ede95937b9959c3aff3eb258bbf7b07dff391ddd4ea7e61f316635ab
     x-checker-data:
       name: trove_classifiers
       packagetype: bdist_wheel
