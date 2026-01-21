@@ -14,8 +14,8 @@ sources:
       type: pypi
   - &id002
     type: file
-    url: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
-    sha256: 29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484
+    url: https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl
+    sha256: b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529
     x-checker-data:
       name: packaging
       packagetype: bdist_wheel
@@ -38,8 +38,8 @@ sources:
       type: pypi
   - &id005
     type: file
-    url: https://files.pythonhosted.org/packages/4f/7e/bc19996fa86cad8801e8ffe6f1bba5836ca0160df76d0410d27432193712/trove_classifiers-2025.12.1.14-py3-none-any.whl
-    sha256: a8206978ede95937b9959c3aff3eb258bbf7b07dff391ddd4ea7e61f316635ab
+    url: https://files.pythonhosted.org/packages/bb/4a/2e5583e544bc437d5e8e54b47db87430df9031b29b48d17f26d129fa60c0/trove_classifiers-2026.1.14.14-py3-none-any.whl
+    sha256: 1f9553927f18d0513d8e5ff80ab8980b8202ce37ecae0e3274ed2ef11880e74d
     x-checker-data:
       name: trove_classifiers
       packagetype: bdist_wheel
